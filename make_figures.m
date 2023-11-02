@@ -88,7 +88,7 @@ CE = Grohn.CE(Grohn.session==sess&Grohn.ID==ID);
 
 c = brewermap(8,'Dark2');
 
-scatter(1:length(outlier),outlier*2,'k','filled')
+scatter(1:length(disengagment),disengagment*2,'k','filled')
 plot(disengagment*2,'ko','linewidth',1)
 plot(nanzscore(-CE),'linewidth',2,'color',c(2,:))
 plot(nanzscore(-GE),'linewidth',2,'color',c(3,:))
