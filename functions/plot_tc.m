@@ -42,3 +42,4 @@ yticks([-1.2:0.4:1.2]);
 axis([-window window -0.4 0.8])
 
 set(gca,'FontSize', 15)
+xtickangle(0)

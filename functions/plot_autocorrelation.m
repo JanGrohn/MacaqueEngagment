@@ -1,5 +1,5 @@
 function plot_autocorrelation(traces)
-figure('position',[1000 100 300 300]); hold on
+figure('position',[1000 100 200 200]); hold on
 
 plot([0 20],[0 0],'k')
 hold on
